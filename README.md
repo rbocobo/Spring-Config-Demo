@@ -1,2 +1,2 @@
 # Spring-Config-Demo
-Steelto Config Management Demo
+Steeltoe Config Management Demo

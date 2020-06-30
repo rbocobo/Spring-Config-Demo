@@ -1,0 +1,18 @@
+---
+AzureEventGridConfig:
+  StageTaxFileEndpoint: https://euwdgtp005etn01.westeurope-1.eventgrid.azure.net/api/events
+  StageTaxFileTopic: "/subscriptions/5aeb8557-cab7-41ac-8603-9f94ad233efc/resourceGroups/GT-WEU-GTP-CORE-DEV-RSG/providers/Microsoft.EventGrid/topics/EUWDGTP005ETN01"
+AzurePowerBIConfig:
+  MasterReportCatalogGroupId: f7c6da86-2fd7-4ce8-960a-14f8cfb992e1
+  CapacityId: 7B74A760-AA72-46FD-BC89-A0827CD98EF1
+  ServicePrincipalId: 1fc09a5e-10d9-42e9-a055-46821f25be7d
+  ApplicationId: c823d393-cc13-4b16-b901-96c042823de7  
+  TenantId: 5b973f99-77df-4beb-b27d-aa0c70b8482c
+  AADGroup: e610ef4c-e30d-4bcf-9c22-47d38e4c9031
+  SPNUsers:
+  - bfe275a3-cd92-48c6-be47-5f58fc9ff57f
+  - 43f079a2-cf2c-43a6-9ccb-522871c2e8c9
+Sync:
+  PowerBIEnvironmentName: Dev
+  PowerBIHostName: CTP
+  IsDisabled: false
